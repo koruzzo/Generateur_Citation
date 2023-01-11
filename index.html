@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="assets/css/style_1.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/71e58fb851.js" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js" defer></script>
+        <title>Générateur</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="bandeau_header">
+                <h1 class="titre_header">Générateur de citation</h1>
+            </div>
+            <div class="bandeau1"></div>
+            <div class="bandeau2"></div>
+        </header>
+
+        <main>
+
+            <section class="robot_triste">
+                <div class="titre_t"><h2>La vie est triste</h2></div>
+                <img class="image_triste" src="assets/image/guy-g05e7cdae4_1920.jpg" alt="image_triste">
+                <div class="titre_choix_t"><h4>Combien de citation triste voulez-vous ?</h4></div>
+                <input id="nombre_repetition_t" type="text" name="nbR" placeholder="    1 à 5" />
+                <span id="ERREUR1"></span>
+                <button id="bouton_confirmation_t">Générer</button>
+                <p id="input_t"></p>
+                <button id="bouton_supp_t">Réinitialiser</button>
+            </section>
+
+            <section class="robot_joyeux">
+                <div class="titre_j"><h2>La vie est belle</h2></div>
+                <img class="image_content" src="assets/image/people-g63fe8a9d1_1920.jpg" alt="image_joyeuse">
+                <div class="titre_choix_j"><h4>Combien de citation joyeuse voulez-vous ?</h4></div>
+                <input id="nombre_repetition_j" onclick="getValue();" type="text" name="nbR" placeholder="    1 à 5" />
+                <span id="ERREUR2"></span>
+                <button id="bouton_confirmation_j">Générer</button>
+                <p id="input_j"></p>
+                <button id="bouton_supp_j">Réinitialiser</button>
+            </section>
+
+        </main>
+        <footer>
+
+        </footer>    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
